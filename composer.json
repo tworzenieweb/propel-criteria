@@ -1,0 +1,22 @@
+{
+    "name": "tworzenieweb/propel-criteria",
+    "license": "MIT",
+    "require": {
+        "propel/propel1": "^1.7",
+        "monolog/monolog": "^1.23"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "authors": [
+        {
+            "name": "Luke Adamczewski",
+            "email": "tworzenieweb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tworzenieweb\\": "src"
+        }
+    }
+}
